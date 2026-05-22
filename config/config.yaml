@@ -1,0 +1,27 @@
+# Multi-Modal AI Pipeline Master Config
+
+pipeline:
+  # The video to analyze (relative to the root directory)
+  input_video: "data/raw/test_video.mp4"
+  
+  # How many frames to extract per second of video
+  target_fps: 1
+
+audio_settings:
+  sample_rate: 16000
+  spectrogram:
+    n_mels: 64
+    n_fft: 1024
+    hop_length: 512
+
+model_paths:
+  face_resnet: "models/face_resnet50.weights.h5"
+  speech_cnn: "models/custom_kws.pth"
+  # YOLO pulls its weights automatically via ultralytics, but define the dir here
+  tracker_dir: "models/" 
+
+speech_classes:
+  - "yes"
+  - "no"
+  - "stop"
+  - "go"

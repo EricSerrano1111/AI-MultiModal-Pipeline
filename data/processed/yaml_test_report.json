@@ -1,0 +1,1955 @@
+{
+    "video_file": "test_video.mp4",
+    "pipeline_config": {
+        "input_video": "data/raw/test_video.mp4",
+        "target_fps": 1
+    },
+    "audio_analysis": {
+        "detected_keyword": "stop",
+        "confidence": 68.56
+    },
+    "visual_analysis": [
+        {
+            "frame": "frame_0000.jpg",
+            "faces_detected": 1,
+            "objects_detected": 12,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1019,
+                        186,
+                        1279,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.88,
+                    "bounding_box": [
+                        0,
+                        2,
+                        195,
+                        706
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.84,
+                    "bounding_box": [
+                        388,
+                        57,
+                        879,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.78,
+                    "bounding_box": [
+                        335,
+                        58,
+                        446,
+                        253
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.62,
+                    "bounding_box": [
+                        781,
+                        179,
+                        901,
+                        293
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.61,
+                    "bounding_box": [
+                        164,
+                        118,
+                        269,
+                        476
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.56,
+                    "bounding_box": [
+                        770,
+                        85,
+                        864,
+                        231
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.45,
+                    "bounding_box": [
+                        920,
+                        187,
+                        1020,
+                        292
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.43,
+                    "bounding_box": [
+                        905,
+                        187,
+                        1022,
+                        325
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.33,
+                    "bounding_box": [
+                        711,
+                        181,
+                        782,
+                        310
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.3,
+                    "bounding_box": [
+                        346,
+                        155,
+                        475,
+                        327
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.25,
+                    "bounding_box": [
+                        1023,
+                        156,
+                        1153,
+                        350
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0030.jpg",
+            "faces_detected": 3,
+            "objects_detected": 11,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1018,
+                        184,
+                        1279,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.88,
+                    "bounding_box": [
+                        0,
+                        0,
+                        186,
+                        689
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.77,
+                    "bounding_box": [
+                        381,
+                        58,
+                        887,
+                        715
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.77,
+                    "bounding_box": [
+                        342,
+                        61,
+                        475,
+                        252
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.63,
+                    "bounding_box": [
+                        1005,
+                        175,
+                        1153,
+                        352
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.63,
+                    "bounding_box": [
+                        779,
+                        176,
+                        901,
+                        298
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.63,
+                    "bounding_box": [
+                        772,
+                        81,
+                        872,
+                        229
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.62,
+                    "bounding_box": [
+                        159,
+                        125,
+                        269,
+                        476
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.57,
+                    "bounding_box": [
+                        916,
+                        186,
+                        1020,
+                        284
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.27,
+                    "bounding_box": [
+                        342,
+                        152,
+                        474,
+                        333
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.27,
+                    "bounding_box": [
+                        331,
+                        150,
+                        479,
+                        489
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0060.jpg",
+            "faces_detected": 4,
+            "objects_detected": 14,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1016,
+                        187,
+                        1279,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        383,
+                        62,
+                        879,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.89,
+                    "bounding_box": [
+                        0,
+                        0,
+                        183,
+                        691
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.78,
+                    "bounding_box": [
+                        311,
+                        57,
+                        438,
+                        265
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.75,
+                    "bounding_box": [
+                        135,
+                        39,
+                        267,
+                        524
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.61,
+                    "bounding_box": [
+                        1019,
+                        159,
+                        1152,
+                        350
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.56,
+                    "bounding_box": [
+                        771,
+                        88,
+                        873,
+                        235
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        775,
+                        177,
+                        898,
+                        318
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.47,
+                    "bounding_box": [
+                        919,
+                        188,
+                        1017,
+                        286
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.34,
+                    "bounding_box": [
+                        330,
+                        146,
+                        466,
+                        527
+                    ]
+                },
+                {
+                    "class_name": "couch",
+                    "confidence": 0.34,
+                    "bounding_box": [
+                        857,
+                        325,
+                        1279,
+                        710
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.29,
+                    "bounding_box": [
+                        911,
+                        187,
+                        1019,
+                        323
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.28,
+                    "bounding_box": [
+                        341,
+                        144,
+                        463,
+                        325
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.26,
+                    "bounding_box": [
+                        713,
+                        184,
+                        774,
+                        304
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0090.jpg",
+            "faces_detected": 1,
+            "objects_detected": 11,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.9,
+                    "bounding_box": [
+                        1015,
+                        213,
+                        1279,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.86,
+                    "bounding_box": [
+                        383,
+                        67,
+                        879,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.84,
+                    "bounding_box": [
+                        0,
+                        3,
+                        173,
+                        699
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.76,
+                    "bounding_box": [
+                        108,
+                        66,
+                        238,
+                        482
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.75,
+                    "bounding_box": [
+                        203,
+                        62,
+                        340,
+                        499
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.72,
+                    "bounding_box": [
+                        313,
+                        64,
+                        449,
+                        267
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.66,
+                    "bounding_box": [
+                        915,
+                        192,
+                        1013,
+                        291
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.55,
+                    "bounding_box": [
+                        774,
+                        180,
+                        894,
+                        305
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        772,
+                        88,
+                        872,
+                        238
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.29,
+                    "bounding_box": [
+                        328,
+                        138,
+                        494,
+                        543
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.27,
+                    "bounding_box": [
+                        335,
+                        141,
+                        461,
+                        445
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0120.jpg",
+            "faces_detected": 2,
+            "objects_detected": 11,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        61,
+                        74,
+                        261,
+                        491
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.9,
+                    "bounding_box": [
+                        374,
+                        68,
+                        879,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.88,
+                    "bounding_box": [
+                        1013,
+                        200,
+                        1279,
+                        715
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.75,
+                    "bounding_box": [
+                        316,
+                        59,
+                        457,
+                        263
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.73,
+                    "bounding_box": [
+                        0,
+                        46,
+                        110,
+                        711
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.66,
+                    "bounding_box": [
+                        771,
+                        182,
+                        893,
+                        318
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.6,
+                    "bounding_box": [
+                        0,
+                        53,
+                        74,
+                        644
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.59,
+                    "bounding_box": [
+                        767,
+                        87,
+                        864,
+                        246
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.59,
+                    "bounding_box": [
+                        971,
+                        193,
+                        1131,
+                        346
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        910,
+                        191,
+                        1010,
+                        325
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.36,
+                    "bounding_box": [
+                        332,
+                        145,
+                        465,
+                        453
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0150.jpg",
+            "faces_detected": 3,
+            "objects_detected": 9,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1011,
+                        212,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.9,
+                    "bounding_box": [
+                        376,
+                        70,
+                        881,
+                        715
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.85,
+                    "bounding_box": [
+                        63,
+                        156,
+                        244,
+                        500
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.81,
+                    "bounding_box": [
+                        0,
+                        24,
+                        110,
+                        703
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.76,
+                    "bounding_box": [
+                        303,
+                        60,
+                        447,
+                        266
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.66,
+                    "bounding_box": [
+                        776,
+                        92,
+                        877,
+                        246
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.52,
+                    "bounding_box": [
+                        772,
+                        184,
+                        892,
+                        301
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.33,
+                    "bounding_box": [
+                        333,
+                        145,
+                        466,
+                        503
+                    ]
+                },
+                {
+                    "class_name": "couch",
+                    "confidence": 0.29,
+                    "bounding_box": [
+                        854,
+                        307,
+                        1279,
+                        710
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0180.jpg",
+            "faces_detected": 2,
+            "objects_detected": 12,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1012,
+                        255,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.9,
+                    "bounding_box": [
+                        376,
+                        67,
+                        877,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.78,
+                    "bounding_box": [
+                        314,
+                        57,
+                        452,
+                        261
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.74,
+                    "bounding_box": [
+                        0,
+                        3,
+                        176,
+                        669
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.68,
+                    "bounding_box": [
+                        792,
+                        97,
+                        889,
+                        256
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.52,
+                    "bounding_box": [
+                        970,
+                        181,
+                        1130,
+                        348
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.46,
+                    "bounding_box": [
+                        905,
+                        196,
+                        1005,
+                        322
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.39,
+                    "bounding_box": [
+                        705,
+                        90,
+                        765,
+                        262
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.35,
+                    "bounding_box": [
+                        780,
+                        188,
+                        865,
+                        289
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.33,
+                    "bounding_box": [
+                        333,
+                        144,
+                        457,
+                        433
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.27,
+                    "bounding_box": [
+                        332,
+                        147,
+                        464,
+                        539
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.26,
+                    "bounding_box": [
+                        339,
+                        145,
+                        456,
+                        327
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0210.jpg",
+            "faces_detected": 2,
+            "objects_detected": 11,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1012,
+                        254,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.85,
+                    "bounding_box": [
+                        371,
+                        67,
+                        874,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.85,
+                    "bounding_box": [
+                        17,
+                        60,
+                        238,
+                        501
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.81,
+                    "bounding_box": [
+                        313,
+                        60,
+                        464,
+                        264
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.78,
+                    "bounding_box": [
+                        0,
+                        53,
+                        118,
+                        629
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.58,
+                    "bounding_box": [
+                        682,
+                        92,
+                        772,
+                        239
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        679,
+                        185,
+                        770,
+                        319
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.46,
+                    "bounding_box": [
+                        318,
+                        149,
+                        473,
+                        529
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.42,
+                    "bounding_box": [
+                        906,
+                        194,
+                        1007,
+                        325
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.34,
+                    "bounding_box": [
+                        772,
+                        106,
+                        867,
+                        249
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.3,
+                    "bounding_box": [
+                        770,
+                        189,
+                        879,
+                        320
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0240.jpg",
+            "faces_detected": 3,
+            "objects_detected": 14,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1012,
+                        258,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.88,
+                    "bounding_box": [
+                        374,
+                        68,
+                        875,
+                        715
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.8,
+                    "bounding_box": [
+                        0,
+                        5,
+                        82,
+                        649
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.69,
+                    "bounding_box": [
+                        25,
+                        62,
+                        189,
+                        502
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.62,
+                    "bounding_box": [
+                        804,
+                        96,
+                        907,
+                        300
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.61,
+                    "bounding_box": [
+                        233,
+                        58,
+                        378,
+                        473
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.54,
+                    "bounding_box": [
+                        705,
+                        89,
+                        769,
+                        251
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        235,
+                        56,
+                        381,
+                        285
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.51,
+                    "bounding_box": [
+                        906,
+                        193,
+                        1007,
+                        329
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.41,
+                    "bounding_box": [
+                        434,
+                        86,
+                        514,
+                        268
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.38,
+                    "bounding_box": [
+                        776,
+                        194,
+                        864,
+                        329
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.36,
+                    "bounding_box": [
+                        332,
+                        147,
+                        467,
+                        500
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.3,
+                    "bounding_box": [
+                        54,
+                        121,
+                        199,
+                        502
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.29,
+                    "bounding_box": [
+                        786,
+                        193,
+                        864,
+                        288
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0270.jpg",
+            "faces_detected": 3,
+            "objects_detected": 12,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.92,
+                    "bounding_box": [
+                        1010,
+                        257,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        0,
+                        1,
+                        153,
+                        633
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.88,
+                    "bounding_box": [
+                        368,
+                        68,
+                        868,
+                        715
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.81,
+                    "bounding_box": [
+                        240,
+                        52,
+                        383,
+                        505
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.68,
+                    "bounding_box": [
+                        791,
+                        97,
+                        885,
+                        258
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        907,
+                        192,
+                        1006,
+                        329
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.49,
+                    "bounding_box": [
+                        770,
+                        183,
+                        865,
+                        296
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.35,
+                    "bounding_box": [
+                        908,
+                        192,
+                        1006,
+                        288
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.32,
+                    "bounding_box": [
+                        708,
+                        89,
+                        761,
+                        257
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.32,
+                    "bounding_box": [
+                        329,
+                        140,
+                        457,
+                        466
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.25,
+                    "bounding_box": [
+                        708,
+                        88,
+                        768,
+                        306
+                    ]
+                },
+                {
+                    "class_name": "couch",
+                    "confidence": 0.25,
+                    "bounding_box": [
+                        845,
+                        327,
+                        1280,
+                        711
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0300.jpg",
+            "faces_detected": 2,
+            "objects_detected": 12,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.92,
+                    "bounding_box": [
+                        1009,
+                        256,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.89,
+                    "bounding_box": [
+                        0,
+                        2,
+                        145,
+                        618
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.85,
+                    "bounding_box": [
+                        374,
+                        69,
+                        870,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.83,
+                    "bounding_box": [
+                        163,
+                        42,
+                        349,
+                        524
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.65,
+                    "bounding_box": [
+                        797,
+                        95,
+                        889,
+                        257
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.55,
+                    "bounding_box": [
+                        907,
+                        192,
+                        1005,
+                        328
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.54,
+                    "bounding_box": [
+                        774,
+                        185,
+                        871,
+                        288
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.49,
+                    "bounding_box": [
+                        333,
+                        146,
+                        470,
+                        432
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.44,
+                    "bounding_box": [
+                        702,
+                        182,
+                        772,
+                        307
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.39,
+                    "bounding_box": [
+                        908,
+                        192,
+                        1005,
+                        288
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.31,
+                    "bounding_box": [
+                        1017,
+                        160,
+                        1146,
+                        346
+                    ]
+                },
+                {
+                    "class_name": "couch",
+                    "confidence": 0.25,
+                    "bounding_box": [
+                        850,
+                        324,
+                        1280,
+                        710
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0330.jpg",
+            "faces_detected": 2,
+            "objects_detected": 11,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1008,
+                        250,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.8,
+                    "bounding_box": [
+                        195,
+                        48,
+                        349,
+                        514
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.76,
+                    "bounding_box": [
+                        0,
+                        1,
+                        132,
+                        599
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.74,
+                    "bounding_box": [
+                        370,
+                        72,
+                        871,
+                        716
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.69,
+                    "bounding_box": [
+                        779,
+                        185,
+                        889,
+                        288
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.65,
+                    "bounding_box": [
+                        800,
+                        95,
+                        891,
+                        253
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.56,
+                    "bounding_box": [
+                        910,
+                        192,
+                        1009,
+                        322
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.55,
+                    "bounding_box": [
+                        126,
+                        55,
+                        240,
+                        503
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.53,
+                    "bounding_box": [
+                        133,
+                        63,
+                        311,
+                        523
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.49,
+                    "bounding_box": [
+                        333,
+                        141,
+                        468,
+                        438
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.33,
+                    "bounding_box": [
+                        1018,
+                        160,
+                        1145,
+                        345
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0360.jpg",
+            "faces_detected": 2,
+            "objects_detected": 13,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1008,
+                        236,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.85,
+                    "bounding_box": [
+                        373,
+                        67,
+                        874,
+                        714
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.83,
+                    "bounding_box": [
+                        204,
+                        50,
+                        362,
+                        526
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.8,
+                    "bounding_box": [
+                        0,
+                        0,
+                        138,
+                        617
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.7,
+                    "bounding_box": [
+                        60,
+                        27,
+                        200,
+                        535
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.59,
+                    "bounding_box": [
+                        799,
+                        94,
+                        889,
+                        272
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.57,
+                    "bounding_box": [
+                        770,
+                        185,
+                        866,
+                        288
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.52,
+                    "bounding_box": [
+                        911,
+                        192,
+                        1006,
+                        290
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.5,
+                    "bounding_box": [
+                        329,
+                        142,
+                        469,
+                        460
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.44,
+                    "bounding_box": [
+                        703,
+                        92,
+                        772,
+                        252
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.38,
+                    "bounding_box": [
+                        103,
+                        59,
+                        199,
+                        530
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.35,
+                    "bounding_box": [
+                        694,
+                        185,
+                        769,
+                        308
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.26,
+                    "bounding_box": [
+                        909,
+                        191,
+                        1007,
+                        332
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0390.jpg",
+            "faces_detected": 2,
+            "objects_detected": 14,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.9,
+                    "bounding_box": [
+                        1011,
+                        247,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.82,
+                    "bounding_box": [
+                        185,
+                        49,
+                        347,
+                        526
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.79,
+                    "bounding_box": [
+                        95,
+                        67,
+                        195,
+                        510
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.77,
+                    "bounding_box": [
+                        372,
+                        69,
+                        877,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.71,
+                    "bounding_box": [
+                        0,
+                        0,
+                        132,
+                        617
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.62,
+                    "bounding_box": [
+                        772,
+                        184,
+                        864,
+                        289
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.59,
+                    "bounding_box": [
+                        799,
+                        94,
+                        891,
+                        261
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.48,
+                    "bounding_box": [
+                        696,
+                        92,
+                        774,
+                        250
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.46,
+                    "bounding_box": [
+                        908,
+                        192,
+                        1006,
+                        326
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.39,
+                    "bounding_box": [
+                        686,
+                        186,
+                        771,
+                        310
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.38,
+                    "bounding_box": [
+                        337,
+                        141,
+                        572,
+                        711
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.37,
+                    "bounding_box": [
+                        335,
+                        142,
+                        464,
+                        453
+                    ]
+                },
+                {
+                    "class_name": "couch",
+                    "confidence": 0.28,
+                    "bounding_box": [
+                        846,
+                        321,
+                        1280,
+                        710
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.27,
+                    "bounding_box": [
+                        1012,
+                        161,
+                        1148,
+                        346
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0420.jpg",
+            "faces_detected": 3,
+            "objects_detected": 11,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        1011,
+                        240,
+                        1279,
+                        713
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.87,
+                    "bounding_box": [
+                        378,
+                        71,
+                        872,
+                        712
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.86,
+                    "bounding_box": [
+                        198,
+                        51,
+                        364,
+                        525
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.81,
+                    "bounding_box": [
+                        0,
+                        1,
+                        154,
+                        634
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.66,
+                    "bounding_box": [
+                        772,
+                        184,
+                        864,
+                        288
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.58,
+                    "bounding_box": [
+                        799,
+                        94,
+                        891,
+                        274
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.51,
+                    "bounding_box": [
+                        908,
+                        192,
+                        1005,
+                        323
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.49,
+                    "bounding_box": [
+                        328,
+                        143,
+                        469,
+                        451
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.43,
+                    "bounding_box": [
+                        711,
+                        93,
+                        777,
+                        246
+                    ]
+                },
+                {
+                    "class_name": "couch",
+                    "confidence": 0.36,
+                    "bounding_box": [
+                        843,
+                        322,
+                        1279,
+                        711
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.35,
+                    "bounding_box": [
+                        701,
+                        185,
+                        771,
+                        302
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0450.jpg",
+            "faces_detected": 0,
+            "objects_detected": 1,
+            "object_details": [
+                {
+                    "class_name": "book",
+                    "confidence": 0.25,
+                    "bounding_box": [
+                        94,
+                        64,
+                        391,
+                        327
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0480.jpg",
+            "faces_detected": 0,
+            "objects_detected": 0,
+            "object_details": []
+        },
+        {
+            "frame": "frame_0510.jpg",
+            "faces_detected": 0,
+            "objects_detected": 1,
+            "object_details": [
+                {
+                    "class_name": "pizza",
+                    "confidence": 0.48,
+                    "bounding_box": [
+                        939,
+                        106,
+                        1177,
+                        301
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0540.jpg",
+            "faces_detected": 0,
+            "objects_detected": 1,
+            "object_details": [
+                {
+                    "class_name": "pizza",
+                    "confidence": 0.72,
+                    "bounding_box": [
+                        933,
+                        111,
+                        1163,
+                        298
+                    ]
+                }
+            ]
+        }
+    ]
+}

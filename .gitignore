@@ -1,0 +1,62 @@
+# ==========================================
+# Data & Media 
+# ==========================================
+data/raw/*
+data/processed/audio/*
+data/processed/frames/*
+data/training/*
+*.mp4
+*.wav
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Allow specific visualizations for the README
+!data/processed/pipeline_results_chart.png
+
+# Allow Git to keep the empty folder structures intact
+!data/raw/.gitkeep
+!data/processed/audio/.gitkeep
+!data/processed/frames/.gitkeep
+!data/training/.gitkeep
+
+# Ultralytics/YOLO auto-generated cache
+runs/
+
+# ==========================================
+# Deep Learning Model Weights 
+# ==========================================
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.weights
+*.onnx
+
+# Allow the folder itself to be tracked
+!models/.gitkeep
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+venv/
+env/
+.venv/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# OS & IDE Specific Files
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
+*.log
