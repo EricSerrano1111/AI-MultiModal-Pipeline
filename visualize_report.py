@@ -5,8 +5,8 @@ import numpy as np
 
 # Define paths
 base_dir = os.path.dirname(os.path.abspath(__file__))
-json_path = os.path.join(base_dir, 'data', 'processed', 'initial_test_report.json')
-output_image_path = os.path.join(base_dir, 'data', 'processed', 'initial_test_results_chart.png')
+json_path = os.path.join(base_dir, 'data', 'processed', 'final_report.json')
+output_image_path = os.path.join(base_dir, 'data', 'processed', 'final_results_chart.png')
 
 def generate_plot():
     # Load JSON data
@@ -46,7 +46,7 @@ def generate_plot():
     ax.yaxis.get_major_locator().set_params(integer=True)
 
     # Add Audio Pipeline result as an overlay box
-    audio_text = f"🎙️ Audio Analysis:\nKeyword: '{keyword.upper()}'\nConfidence: {confidence}%"
+    audio_text = f"Audio Analysis:\nKeyword: '{keyword.upper()}'\nConfidence: {confidence}%"
     props = dict(boxstyle='round', facecolor='wheat', alpha=0.8)
     ax.text(0.02, 0.95, audio_text, transform=ax.transAxes, fontsize=12,
             verticalalignment='top', bbox=props)

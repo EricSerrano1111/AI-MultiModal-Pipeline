@@ -2,7 +2,7 @@
 
 pipeline:
   # The video to analyze (relative to the root directory)
-  input_video: "data/raw/test_video.mp4"
+  input_video: "data/raw/final_video.mp4"
   
   # How many frames to extract per second of video
   target_fps: 1

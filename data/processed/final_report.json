@@ -1,0 +1,225 @@
+{
+    "video_file": "final_video.mp4",
+    "pipeline_config": {
+        "input_video": "data/raw/final_video.mp4",
+        "target_fps": 1
+    },
+    "audio_analysis": {
+        "detected_keyword": "no",
+        "confidence": 70.45
+    },
+    "visual_analysis": [
+        {
+            "frame": "frame_0000.jpg",
+            "faces_detected": 0,
+            "objects_detected": 3,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.95,
+                    "bounding_box": [
+                        600,
+                        262,
+                        1330,
+                        1069
+                    ]
+                },
+                {
+                    "class_name": "truck",
+                    "confidence": 0.76,
+                    "bounding_box": [
+                        680,
+                        454,
+                        912,
+                        603
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.27,
+                    "bounding_box": [
+                        508,
+                        583,
+                        550,
+                        653
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0030.jpg",
+            "faces_detected": 1,
+            "objects_detected": 3,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.95,
+                    "bounding_box": [
+                        605,
+                        254,
+                        1339,
+                        1069
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.65,
+                    "bounding_box": [
+                        516,
+                        572,
+                        553,
+                        647
+                    ]
+                },
+                {
+                    "class_name": "sports ball",
+                    "confidence": 0.3,
+                    "bounding_box": [
+                        538,
+                        304,
+                        587,
+                        343
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0060.jpg",
+            "faces_detected": 1,
+            "objects_detected": 4,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.94,
+                    "bounding_box": [
+                        623,
+                        251,
+                        1347,
+                        1070
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.91,
+                    "bounding_box": [
+                        0,
+                        298,
+                        292,
+                        1069
+                    ]
+                },
+                {
+                    "class_name": "fire hydrant",
+                    "confidence": 0.35,
+                    "bounding_box": [
+                        517,
+                        568,
+                        556,
+                        641
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.28,
+                    "bounding_box": [
+                        517,
+                        568,
+                        557,
+                        642
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0090.jpg",
+            "faces_detected": 2,
+            "objects_detected": 2,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.94,
+                    "bounding_box": [
+                        626,
+                        245,
+                        1348,
+                        1069
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.93,
+                    "bounding_box": [
+                        242,
+                        350,
+                        615,
+                        1071
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0120.jpg",
+            "faces_detected": 2,
+            "objects_detected": 2,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.94,
+                    "bounding_box": [
+                        617,
+                        242,
+                        1340,
+                        1069
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.89,
+                    "bounding_box": [
+                        502,
+                        394,
+                        726,
+                        1072
+                    ]
+                }
+            ]
+        },
+        {
+            "frame": "frame_0150.jpg",
+            "faces_detected": 1,
+            "objects_detected": 3,
+            "object_details": [
+                {
+                    "class_name": "person",
+                    "confidence": 0.94,
+                    "bounding_box": [
+                        607,
+                        235,
+                        1344,
+                        1069
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.83,
+                    "bounding_box": [
+                        616,
+                        413,
+                        784,
+                        800
+                    ]
+                },
+                {
+                    "class_name": "person",
+                    "confidence": 0.25,
+                    "bounding_box": [
+                        530,
+                        560,
+                        560,
+                        633
+                    ]
+                }
+            ]
+        }
+    ]
+}
