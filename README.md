@@ -40,6 +40,10 @@ ai-multimodal-pipeline/
 │   └── test_speech_analyzer.py  # Test Spectrogram generation & CTC model architecture
 │
 ├── main.py                 # Flask API entry point & Orchestrator
+├── api.py                  # FastAPI orchestration script acts as wrapper for models
+├── app.py                  # Frontend UI allow file uploads send to FastAPI server
+├── visualize_report.py     # Visual plot results for processed data
+│
 ├── requirements.txt        # Python package dependencies
 └── README.md               # Setup instructions and documentation
 ```

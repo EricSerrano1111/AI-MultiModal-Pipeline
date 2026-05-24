@@ -9,7 +9,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Redefine same architecture we built notebook
+# Redefine same architecture built notebook
 class KeywordSpotterCNN(nn.Module):
     def __init__(self, num_classes=4):
         super(KeywordSpotterCNN, self).__init__()
