@@ -11,8 +11,6 @@ data/training/*
 *.jpg
 *.jpeg
 
-# Allow specific visualizations for the README
-!data/processed/pipeline_results_chart.png
 
 # Allow Git to keep the empty folder structures intact
 !data/raw/.gitkeep
