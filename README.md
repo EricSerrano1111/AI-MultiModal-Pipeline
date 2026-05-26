@@ -99,7 +99,7 @@ This project was developed in three distinct engineering phases to ensure modula
     Audio Preprocessing: Because CNNs are inherently designed for image processing, the raw 1D audio waveforms had to be mathematically transformed into Mel Spectrograms. This step converted audio frequencies into a 2D visual feature map, allowing the CNN to effectively "see" and learn the spatial patterns of human speech. 
     Once validated, the model was exported as a production-ready `.pth` weight file.
 
-![mel spectogram](/images/img1.png)
+![mel spectogram](images/img1.png)
 
 * Phase 2: Object-Oriented Refactoring
 
@@ -112,7 +112,7 @@ This project was developed in three distinct engineering phases to ensure modula
     Developing this data storytelling component proved that the system's output was not only accurate but usable, translating complex multi-modal data into an accessible format before introducing the complexity of the FastAPI orchestration layer in Phase 3.
 
 
-![Barchart](/images/img2.png)
+![Barchart](images/img2.png)
 
 * Phase 3: API Orchestration & UI
 
@@ -123,11 +123,11 @@ This project was developed in three distinct engineering phases to ensure modula
 
     Finally, to make the system accessible to end-users, a frontend web application was developed using Streamlit (app.py). This User Interface allows users to simply drag and drop or upload video files directly into their web browser. The UI communicates with the FastAPI backend, retrieves the structured JSON analysis, and renders the speech recognition confidence and visual tracking metrics in a clean, interactive dashboard, successfully completing the end-to-end pipeline.
 
-![UI](/images/img3.png)
+![UI](images/img3.png)
 
-![UI](/images/img4.png)
+![UI](images/img4.png)
 
-![UI](/images/img5.png)
+![UI](images/img5.png)
 
 ## Help / Issue Log
 

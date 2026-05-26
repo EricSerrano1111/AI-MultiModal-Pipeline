@@ -10,7 +10,6 @@ data/training/*
 *.avi
 *.jpg
 *.jpeg
-*.png
 
 # Allow specific visualizations for the README
 !data/processed/pipeline_results_chart.png
