@@ -10,11 +10,7 @@ data/training/*
 *.avi
 *.jpg
 *.jpeg
-*.png
 
-# Allow specific visualizations for the README
-!data/processed/pipeline_results_chart.png
-!images/img1.png
 
 # Allow Git to keep the empty folder structures intact
 !data/raw/.gitkeep
